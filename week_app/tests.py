@@ -1,11 +1,10 @@
 from django.test import TestCase
-from notifications import models
 import logging
 
 logger = logging.getLogger(__name__)
 
 
-class BaseNotificationsTests(TestCase):.
+class BaseNotificationsTests(TestCase):
 
     def test_index_loads(self):
         """Проверяет доступность страницы"""
